@@ -3,7 +3,7 @@ node {
     def mavenHome = tool name: "3.8.6"
     
     stage('1codeclone'){
-        git "https://github.com/jorge1j/maven-web-application"
+        git "https://github.com/jorge1j/tesla-app"
     }
     
     stage('2test$build'){
